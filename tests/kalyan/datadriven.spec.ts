@@ -39,4 +39,5 @@ test.only('has title', async ({ page }) => {
     await source.dragTo(destination)
     await page.waitForTimeout(7000);
     await page.close();
+    
 });

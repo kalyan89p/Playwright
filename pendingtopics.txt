@@ -1,0 +1,10 @@
+Network interception
+How do we record video
+How do we handle API responses using PW
+Custom reporters
+Logging
+Retry strategies
+Error handling
+Trace viewer
+Call back
+manual testing + api + playwright = webinar

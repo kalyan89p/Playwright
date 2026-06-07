@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { CheckoutCompletePage, CheckoutPage, CartPage, InventoryPage, LoginPage } from './pages/SwagLabsPages';
+import { CheckoutCompletePage, CheckoutPage, CartPage, InventoryPage, LoginPage } from '../pages/SwagLabsPages';
 
 test.only('completes the checkout flow using page objects', async ({ page }) => {
   const loginPage = new LoginPage(page);
